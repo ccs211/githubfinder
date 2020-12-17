@@ -39,9 +39,9 @@ class Github {
         this.config
       )
    
-      const profile = await profileResponse.json()
+      const profile = await profileResponse.json();
    
-      const repos = await repoResponse.json()
+      const repos = await repoResponse.json();
    
       return {
         profile,
